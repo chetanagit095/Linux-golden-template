@@ -1,1 +1,3 @@
-
+# Temporary SSH settings used only during the initial system setup.
+PermitRootLogin yes
+PasswordAuthentication yes

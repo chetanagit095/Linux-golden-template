@@ -12,7 +12,7 @@ Linux Golden Template:
    Cleans system before image creation
    Configures a login security banner
 - Directory Structure
-  scripts/   - Automation scripts / and information of some steps
+  scripts/   - Automation scripts {and information of some steps}
   config/    - Configuration files
   docs/      - Process documentation
   notes/     - Manual deployment steps

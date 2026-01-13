@@ -1,0 +1,28 @@
+/etc/issue.net   # Create the Banner File and Paste the banner content into this file.
+****************************************************
+🔒 WARNING NOTICE
+****************************************************
+
+SYSTEM: Authorized Use Only
+
+POLICY:
+Access to this system is restricted to authorized users
+for approved business purposes only.
+
+MONITORING:
+All activities on this system are logged and monitored.
+By accessing this system, you consent to such monitoring.
+
+VIOLATIONS:
+Unauthorized access or misuse may result in disciplinary
+action, legal proceedings, or both.
+
+****************************************************
+
+# Apply the Banner to SSH Logins
+sudo vi /etc/ssh/sshd_config  #Open the SSH configuration file
+Banner /etc/issue.net         #Find the Banner directive or add it if it does not exist
+sudo systemctl restart ssh    #Save the file and restart the SSH service
+
+# Apply the Banner to Local Console Logins
+sudo cp /etc/issue.net /etc/issue  #To display the same banner for local console logins

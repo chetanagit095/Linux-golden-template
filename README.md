@@ -20,5 +20,5 @@ Linux Golden Template:
   Private Cloud: Nutanix, VMware
   Public Cloud: AWS (AMI-based)
 - Contributors
-  Chetana Sonawane
+  Chetana Sonawane ,
   Rushikesh Thorat
